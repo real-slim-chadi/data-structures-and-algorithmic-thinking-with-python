@@ -75,7 +75,9 @@ Ascendingly, the rates of growth are:
 worst case, average case and best case  
 
 ## Asymptotic notation
-we look at the functions as the input grows
+we look at the functions as the input grows.
+
+Let's deal with relevant Asymptotic notations
 
 ## Big-O
 **[IMPORTANT]**
@@ -90,3 +92,26 @@ f(n)=O(g(n))
 This meeans that f(n)<g(n) for every n bigger than a certain number
 ```
 exercises are in [Big O Notations of different functions](big_o.txt)
+
+## Big Omega
+This is the *tight* lower bound.
+**Other words**: any algorithm cant perform better that its big omega notation
+
+```
+Example:
+f(n)=Omega(h(n))
+This means that f(n)<h(n) for every n bigger than a certain value
+```
+
+exercises are in [Big Omega Notation exercises](big_omega.txt)
+## Big Theta
+This metric determines whether big o and big omega are eequal
+## Guidelines for Asymptotic Notations
+more in [Asymptotic Relations](asym_guidelines.txt)
+## Properties of Notation s
+- Transiitivity
+- Reflexivity
+- Symmetry
+- Transpose symmetry (between o and omega)
+
+next: 1.21 Master's thueorem divide and conquer

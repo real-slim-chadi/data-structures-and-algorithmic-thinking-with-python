@@ -1,3 +1,16 @@
 find the upper bounds of the following functions:
-f(x)=3n+8.
-O(f(x))=O(n)
+Summary:
+- Polynomial: we choose the highest power
+1-f(x)=3n+8.
+  Solution:
+  O(f(x))=O(n)
+  3n+8<4n so
+  3n+8=O(n)
+2- f(x)=n^2+1
+  Solution:
+  n^2+1<2n^2
+  n^2+1=O(n^2)
+3- f(n)=n^2+400n+50
+  Solution:
+  n^2+400n+50<2n^2
+  n^2+400n+50=O(n^2)

@@ -1,0 +1,3 @@
+find the big omega notation of the following functions:
+Summary:
+Polinomials: same as the biggest power of n

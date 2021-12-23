@@ -1,0 +1,7 @@
+Asymptotic Notation guidelines:
+- Loops: constant * length of conditions
+- nested loops: constant*n^2
+- consecutive statements: add the statements
+- if else: best: min(if,else). best: max(if,else)
+- logarithmic Complexities: when the program is cut into a fraction each Time
+  - binary search is a good example
