@@ -1,0 +1,3 @@
+find the upper bounds of the following functions:
+f(x)=3n+8.
+O(f(x))=O(n)

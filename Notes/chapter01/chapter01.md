@@ -61,3 +61,32 @@ we need to define **objective** measures.
 usually we measure the 'rate of growth' of the time needed by the algorithm wrt the size of the input.
 
 Basically it's _f(N)_
+## Definition of rate of growth
+We are computing the time it needs to compute the time needed for a certain algorithm as we have large enough inputs
+
+we take the highest rate of growth when we have a sum of multip;le rates.
+
+so, $x^2+x$ is similar to $x^2$ because powers of x "eat up" lower powers of x for large values.
+## Rates of Growth
+Ascendingly, the rates of growth are:
+
+1, lg(n),n, nlog(n), $n^k$, $2^n$
+## Types of analysis
+worst case, average case and best case  
+
+## Asymptotic notation
+we look at the functions as the input grows
+
+## Big-O
+**[IMPORTANT]**
+
+This is the *tight* upper bound  
+
+**Other words**: any algorithm can't perform worse than its Big O.
+
+```
+Example:
+f(n)=O(g(n))
+This meeans that f(n)<g(n) for every n bigger than a certain number
+```
+exercises are in [Big O Notations of different functions](big_o.txt)
