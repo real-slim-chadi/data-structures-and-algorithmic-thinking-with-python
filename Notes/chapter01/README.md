@@ -113,5 +113,5 @@ more in [Asymptotic Relations](asym_guidelines.txt)
 - Reflexivity
 - Symmetry
 - Transpose symmetry (between o and omega)
-
-next: 1.21 Master's thueorem divide and conquer
+## Master's Theorem for diividve and conqnuer
+[Abdul Bari](https://www.youtube.com/watch?v=OynWkEj0S-s) has a great video abouot this.
