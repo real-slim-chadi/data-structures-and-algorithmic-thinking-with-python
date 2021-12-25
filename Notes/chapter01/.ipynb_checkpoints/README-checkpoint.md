@@ -113,14 +113,5 @@ more in [Asymptotic Relations](asym_guidelines.txt)
 - Reflexivity
 - Symmetry
 - Transpose symmetry (between o and omega)
-
 ## Master's Theorem for diividve and conqnuer
 [Abdul Bari](https://www.youtube.com/watch?v=OynWkEj0S-s) has a great video abouot this.
-He Basically animates how to apply Master's theorem.
-**The guy is a genius**
-
-In a nutshell:
-
-![Master's Theorem](img/masters_theorem.png)
-## Divide and conquer theorem exercises
-They are in this [Divide and Conquer Exercise file](divid_and_conquer.txt)
