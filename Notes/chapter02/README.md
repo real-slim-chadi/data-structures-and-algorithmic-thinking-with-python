@@ -26,6 +26,7 @@ We need two parts:
 
 ## Recursion and memory
 recursion is heavy on memory. Let's elaborate:
+
     Each recursive call make a copy of hte variables. Once the function ends, the data is removed.
 
     But any parent stay alive until all of its children have finished

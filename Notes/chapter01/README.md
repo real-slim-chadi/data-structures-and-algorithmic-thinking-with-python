@@ -1,4 +1,43 @@
 # Introduction
+##[Exercises](src)
+### ComplexityWithBreakStatement.py
+Tracking the code line by line:
+```
+- Set count to zero
+- iterate from half n to n
+- set another counter to 1 (j)
+- increment the counter
+- while j+n//2<==n
+  - break
+  Wait a minut... does the while looop ever get executed?
+  - double j
+  - increment counter
+```
+What does this code do?
+
+```
+------ 0 ------
+0
+------ 1 ------
+1
+------ 2 ------
+1
+------ 3 ------
+2
+------ 4 ------
+2
+------ 5 ------
+3
+------ 6 ------
+3
+...
+```
+it seems as if this function prints back the ceil of the half of the input.
+
+This program looks like a practice problem for asymptotic analysis
+### Find the complexity of the program
+
+# Introduction
 This is a **VERY** comprehensive introduction. Thank you.
 ## Variables
 We can understand them as "names" that we put on numbers.
