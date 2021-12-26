@@ -104,6 +104,7 @@ We have three cases to worry abouit when inserting in a singly linked list:
 - end
 
 **Beginning**
+
 it's a two step dance:
 - update the pointer of the new element to the current Head
 - set new hea to the element
@@ -116,3 +117,47 @@ def addBeg(self, node):
     self.head = newNode
     self.length += 1
 ```
+
+**Ending**
+
+- New node's next pointer is set to NULL
+- Last node's pointer is set to new node
+
+```python
+def addLast(self, node):
+    currentnode = self.head
+
+    while currentnode.next != None: # Find thte last node
+        currentnode = currentnode.next
+
+    newNode = node
+    newNode.next = None
+    currentnode.next = newNode
+    self.length = self.length + 1
+```
+
+_Also: don't forgdet to increment_
+
+**Inserting at the middle**
+```python
+def addAtPos(self, pos, node):
+    count = 0
+    currentnode = self.head
+    previousnode = self.head
+
+    if pos > self.length or pos < 0:
+        print "The position does not exist. Please enter a valid position"
+    else:
+        while currentnode.next != None or count < pos:
+            count = count + 1
+            if count == pos:
+                previousnode.next = node
+                node.next = currentnode
+                self.length += 1
+                return
+
+            else:
+                previousnode = currentnode
+                currentnode = currentnode.next
+```
+**Deleting is similar to adding but it's in reverse**
